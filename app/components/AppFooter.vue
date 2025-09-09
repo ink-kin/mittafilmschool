@@ -13,15 +13,17 @@ const columns = [{
     label: 'Актерская мастерская'
   }]
 }, {
-  label: 'Features',
+  label: 'Услуги',
   children: [{
-    label: 'Affiliates'
+    label: 'Обучить'
   }, {
-    label: 'Portal'
+    label: 'Снять фильм'
   }, {
-    label: 'Jobs'
+    label: 'Подобрать людей'
   }, {
-    label: 'Sponsors'
+    label: 'Найти спонсоров'
+  }, {
+    label: 'Аренда оборудования'
   }]
 }, {
   label: 'Компания',
