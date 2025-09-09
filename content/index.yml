@@ -179,11 +179,11 @@ cta:
   title: Хотите учиться и у вас есть вопросы?
   description: Хотите узнать что будет на следующем занятии или пообщаться с теми, кто уже занимается на курсе?
   links:
-    - label: Позвонить
+    - label: Позвонить whatsapp
       to: 'https://wa.me/79131462232'
       target: _blank
       trailingIcon: i-lucide-arrow-right
-    - label: Оплатить
-      to: 'https://qr.nspk.ru/BS2A000O8Q6CRJR48F2PJTLP7RNFP1EC?type=01&bank=100000000284&crc=1BC0'
+    - label: Позвонить telegram
+      to: 'https://t.me/xalketi'
       target: _blank
       variant: subtle
