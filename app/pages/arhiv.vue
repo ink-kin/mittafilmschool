@@ -45,7 +45,34 @@ useSeoMeta({
       </template>
     </UPageHero>
 
-    
+    <UPageSection
+      :description="page.section.description"
+      :features="page.section.features"
+      orientation="horizontal"
+      :ui="{
+        container: 'lg:px-0 2xl:px-20 mx-0 max-w-none md:mr-10',
+        features: 'gap-0'
+      }"
+      reverse
+    >
+      <template #title>
+        <MDC
+          :value="page.section.title"
+          class="sm:*:leading-11"
+        />
+      </template>
+      <img
+        :src="page.section.images.desktop"
+        :alt="page.section.title"
+        class="hidden lg:block 2xl:hidden left-0 w-full max-w-2xl"
+      >
+      <img
+        :src="page.section.images.mobile"
+        :alt="page.section.title"
+        class="block lg:hidden 2xl:block 2xl:w-full 2xl:max-w-2xl"
+      >
+    </UPageSection>
+
     <USeparator :ui="{ border: 'border-primary/30' }" />
 
     <UPageSection
@@ -82,6 +109,17 @@ useSeoMeta({
       :description="page.steps.description"
       class="relative overflow-hidden"
     >
+      <template #headline>
+        <UColorModeImage
+          light="/images/light/line-3.svg"
+          dark="/images/dark/line-3.svg"
+          class="absolute -top-10 sm:top-0 right-1/2 h-24"
+        />
+      </template>
+      <template #title>
+        <MDC :value="page.steps.title" />
+      </template>
+
       <template #features>
         <UPageCard
           v-for="(step, index) in page.steps.items"
@@ -107,19 +145,6 @@ useSeoMeta({
           </div>
         </UPageCard>
       </template>
-      
-      <template #headline>
-        <UColorModeImage
-          light="/images/light/line-3.svg"
-          dark="/images/dark/line-3.svg"
-          class="absolute -top-10 sm:top-0 right-1/2 h-24"
-        />
-      </template>
-      <template #title>
-        <MDC :value="page.steps.title" />
-      </template>
-
-      
     </UPageSection>
 
     <UPageSection
