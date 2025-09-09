@@ -97,7 +97,7 @@ function onSubmit() {
 
     <template #right>
       <UButton
-        to="https://go.nuxt.com/discord"
+        to="https://t.me/mittafilmschool"
         target="_blank"
         icon="i-simple-icons-discord"
         aria-label="Nuxt on Discord"
@@ -105,7 +105,7 @@ function onSubmit() {
         variant="ghost"
       />
       <UButton
-        to="https://go.nuxt.com/x"
+        to="https://vk.com/mitta_film_school"
         target="_blank"
         icon="i-simple-icons-x"
         aria-label="Nuxt on X"
@@ -113,7 +113,7 @@ function onSubmit() {
         variant="ghost"
       />
       <UButton
-        to="https://github.com/nuxt-ui-templates/landing"
+        to="https://github.com/ink-kin/mittafilmschool"
         target="_blank"
         icon="i-simple-icons-github"
         aria-label="Nuxt UI on GitHub"
