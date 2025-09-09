@@ -2,39 +2,41 @@
 const columns = [{
   label: 'Курсы',
   children: [{
-    label: 'Режиссёрская мастерская'
+    label: 'Режиссёрская мастерская', to:'https://seminar.mitta.ru/rejissura'
   }, {
-    label: 'Сценарная мастерская'
+    label: 'Сценарная мастерская', to: 'http://seminar.mitta.ru/scenarist'
   }, {
-    label: 'Операторская мастерская'
+    label: 'Операторская мастерская', to: 'http://dp.mitta.ru/'
   }, {
-    label: 'Продюсерская мастерская'
+    label: 'Продюсерская мастерская', to: 'http://producers.mitta.ru/'
   }, {
-    label: 'Актерская мастерская'
+    label: 'Актерская мастерская', to: 'http://akter.mitta.ru/'
   }]
 }, {
   label: 'Услуги',
   children: [{
-    label: 'Обучить'
+    label: 'Обучить', to: 'https://mitta.ru/kinokursy'
   }, {
-    label: 'Снять фильм'
+    label: 'Снять фильм', to: 'https://mitta.ru/o-kinoshkole/nashi-prepodavateli'
   }, {
-    label: 'Подобрать людей'
+    label: 'Подобрать людей', to: 'https://mitta.ru'
   }, {
-    label: 'Найти спонсоров'
+    label: 'Найти спонсоров', to: 'https://mitta.ru/o-kinoshkole/premium/klub-kinoshkoly'
   }, {
-    label: 'Аренда оборудования'
+    label: 'Аренда оборудования', to: 'https://mitta.ru/o-kinoshkole/tekhnicheskaya-baza'
   }]
 }, {
   label: 'Компания',
   children: [{
-    label: 'О нас'
+    label: 'О нас', to: 'https://mitta.ru/'
   }, {
-    label: 'Цены'
+    label: 'Цены', to: '#pricing'
   }, {
-    label: 'Работа у нас'
+    label: 'Работа у нас', to: 'https://mitta.ru/'
   }, {
-    label: 'Блог'
+    label: 'Блог', to: 'https://t.me/mittafilmschool'
+  }, {
+    label: 'Архив', to: '/arhiv'
   }]
 }]
 

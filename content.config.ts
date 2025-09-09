@@ -27,7 +27,7 @@ const createFeatureSchema = () => createBaseSchema().extend({
 
 export const collections = {
   content: defineCollection({
-    source: 'index.yml',
+    source: '*.yml',
     type: 'page',
     schema: z.object({
       hero: z.object({
